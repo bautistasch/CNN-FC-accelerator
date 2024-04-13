@@ -1,0 +1,29 @@
+/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE.sv {1 {vlog -work work -vopt -sv -stats=none /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PE
+
+Top level modules:
+	PE
+
+} {} {}} /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC_array.sv {1 {vlog -work work -vopt -sv -stats=none /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC_array.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PE_FC_array
+
+Top level modules:
+	PE_FC_array
+
+} {} {}} /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_array.sv {1 {vlog -work work -vopt -sv -stats=none /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_array.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PE_array
+
+Top level modules:
+	PE_array
+
+} {} {}} /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/mem.sv {1 {vlog -work work -vopt -sv -stats=none /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/mem.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module mem
+
+Top level modules:
+	mem
+
+} {} {}}

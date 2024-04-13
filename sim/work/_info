@@ -1,0 +1,267 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/bautista/intelFPGA_lite/22.1std/questa_fse/bin
+T_opt
+!s110 1713047624
+V<mNfX`oGGE5ZkceTf13_K0
+04 4 4 work main fast 0
+=1-000ae431a4f1-661b0848-9e5a3-4ee9
+!s124 OEM10U26 
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vfsm_fc
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1713047610
+!i10b 1
+!s100 5kYd=N47FOdXO]7cAZi0a2
+IfIR=iDDe>YZ1MMGXn[@CX2
+S1
+Z3 d/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/sim
+w1712726739
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_fc.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_fc.sv
+!i122 0
+L0 1 421
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1713047610.000000
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_fc.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_fc.sv|
+!i113 0
+Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vfsm_rn
+R1
+R2
+!i10b 1
+!s100 SF4A1moG6OTO4eQo0DHJm0
+IUmK;5diR1Mk]o[EcU25NF3
+S1
+R3
+w1712705975
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_rn.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_rn.sv
+!i122 1
+L0 1 747
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_rn.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/fsm_rn.sv|
+!i113 0
+R7
+R0
+vmain
+R1
+R2
+!i10b 1
+!s100 9eWG^@MT8D]<a@gU`f2DF3
+If;ldT106JjlPDA`MoQJNB2
+S1
+R3
+w1712517320
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/main.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/main.sv
+!i122 2
+L0 3 374
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/main.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/main.sv|
+!i113 0
+R7
+R0
+vmem
+R1
+R2
+!i10b 1
+!s100 zfA0jQ66@oiS7QB@aR47@3
+Ic@>i6_INDTR6BS>OkC8je0
+S1
+R3
+w1712007696
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/mem.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/mem.sv
+!i122 3
+L0 1 50
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/mem.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/mem.sv|
+!i113 0
+R7
+R0
+vPE
+R1
+R2
+!i10b 1
+!s100 di?m_Q3k:MJj49Fl8MNAB3
+IQVhDaNA;]Wg`6MEXj^K=z3
+S1
+R3
+w1712090846
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE.sv
+!i122 4
+L0 1 116
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE.sv|
+!i113 0
+R7
+R0
+n@p@e
+vPE_array
+R1
+R2
+!i10b 1
+!s100 RTJ:Ibjl=gVJ9SgSQ]zl]2
+IRSQG]EgndnW[<TLRM<43>0
+S1
+R3
+w1712001050
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_array.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_array.sv
+!i122 5
+L0 1 99
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_array.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_array.sv|
+!i113 0
+R7
+R0
+n@p@e_array
+vPE_FC
+R1
+Z8 !s110 1713047611
+!i10b 1
+!s100 zF5WKl;5ECdMP=B[J6P<a0
+IPUB`mo?WfMkHh9zz8H3=b1
+S1
+R3
+w1711583797
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC.sv
+!i122 6
+L0 1 68
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC.sv|
+!i113 0
+R7
+R0
+n@p@e_@f@c
+vPE_FC_array
+R1
+R8
+!i10b 1
+!s100 :7d4FJ>mhY1SR8L82PN^^3
+IVEX5bb7aiC[8AT=MBLBan2
+S1
+R3
+w1711578170
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC_array.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC_array.sv
+!i122 7
+L0 1 173
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1713047611.000000
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC_array.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/PE_FC_array.sv|
+!i113 0
+R7
+R0
+n@p@e_@f@c_array
+vrn_FC_struct
+R1
+R8
+!i10b 1
+!s100 z;XzcZ]8m_9]Ya3z]>LH>1
+I^D=DCBmKP_2FRm@RKEB[<3
+S1
+R3
+w1712816553
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_FC_struct.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_FC_struct.sv
+!i122 8
+L0 1 159
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_FC_struct.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_FC_struct.sv|
+!i113 0
+R7
+R0
+nrn_@f@c_struct
+vrn_struct
+R1
+R8
+!i10b 1
+!s100 ZEOP5=3kCoMQKIG[@:1Hi1
+IM=>feY^7;566WIa9oB>UH3
+S1
+R3
+w1712475005
+8/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_struct.sv
+F/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_struct.sv
+!i122 9
+L0 1 181
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 /home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_struct.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/home/bautista/repos/CNN_FC_ACC/CNN-FC-accelerator/rn_struct.sv|
+!i113 0
+R7
+R0
